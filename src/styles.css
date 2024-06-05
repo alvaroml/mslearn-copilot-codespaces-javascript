@@ -123,3 +123,115 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+/* add an amazing animation to the social icons */
+img.socialIcon:hover {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  60% {
+    transform: rotate(-15deg);
+  }
+  70% {
+    transform: rotate(15deg);
+  }
+  80% {
+    transform: rotate(-15deg);
+  }
+  90% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+button {
+  background-color: #4e567e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #6b738e;
+}
+
+button:active {
+  background-color: #3c435b;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:disabled {
+  background-color: #b1b1b1;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #b1b1b1;
+}
+
+button:disabled:active {
+  background-color: #b1b1b1;
+}
+
+button:disabled:focus {
+  outline: none;
+}
+
+button.secondary {
+  background-color: #e7e7e7;
+  color: #4e567e;
+}
+
+button.secondary:hover {
+  background-color: #f0f0f0;
+}
+
+button.secondary:active {
+  background-color: #d9d9d9;
+}
+
+button.secondary:focus {
+  outline: none;
+}
+
+button.secondary:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+button.secondary:disabled:hover {
+  background-color: #f0f0f0;
+}
+
+button.secondary:disabled:active {
+  background-color: #f0f
+}
